@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1202FB529F1A90300B3603A /* AddExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1202FB429F1A90300B3603A /* AddExerciseView.swift */; };
+		E1202FB829F1AAF800B3603A /* ExercisePropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1202FB729F1AAF800B3603A /* ExercisePropertyView.swift */; };
+		E155639F29EFF7C700631CD4 /* GymZoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155639E29EFF7C700631CD4 /* GymZoneApp.swift */; };
+		E15563A129EFF7C700631CD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15563A029EFF7C700631CD4 /* ContentView.swift */; };
+		E15563A329EFF7C700631CD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15563A229EFF7C700631CD4 /* Assets.xcassets */; };
+		E15563A629EFF7C700631CD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15563A529EFF7C700631CD4 /* Preview Assets.xcassets */; };
+		E15930F029F116A800DDBF62 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15930EF29F116A800DDBF62 /* DataModel.swift */; };
+		E15930F229F116CE00DDBF62 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15930F129F116CD00DDBF62 /* DataManager.swift */; };
+		E15930F429F1170900DDBF62 /* WorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15930F329F1170900DDBF62 /* WorkoutsView.swift */; };
+		E15930F629F1173C00DDBF62 /* GifView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15930F529F1173C00DDBF62 /* GifView.swift */; };
+		E15930F829F1177800DDBF62 /* ExecutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15930F729F1177800DDBF62 /* ExecutionView.swift */; };
+		E15930FA29F1179900DDBF62 /* SingleExecutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15930F929F1179900DDBF62 /* SingleExecutionView.swift */; };
+		E15930FF29F1187A00DDBF62 /* SingleWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15930FE29F1187A00DDBF62 /* SingleWorkoutView.swift */; };
+		E159310129F11B9700DDBF62 /* AddWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E159310029F11B9700DDBF62 /* AddWorkoutView.swift */; };
+		E164F4CF29F91BFE00028EDD /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E164F4CE29F91BFE00028EDD /* PlayView.swift */; };
+		E164F4D229F9222100028EDD /* SingleExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E164F4D129F9222100028EDD /* SingleExerciseView.swift */; };
+		E18A09232A053A5F00E25A13 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18A09222A053A5F00E25A13 /* TimerView.swift */; };
+		E18A09252A053E2600E25A13 /* ChronoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E18A09242A053E2600E25A13 /* ChronoView.swift */; };
+		E19F817B2A04D4880067CE0E /* BurnedCaloriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19F817A2A04D4880067CE0E /* BurnedCaloriesView.swift */; };
+		E19F817E2A04EAE00067CE0E /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19F817D2A04EAE00067CE0E /* SummaryView.swift */; };
+		E1BAC7AE2A03C61F00E9F902 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1BAC7AD2A03C61F00E9F902 /* HealthKit.framework */; };
+		E1BAC7B02A03C6E000E9F902 /* HearthRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BAC7AF2A03C6E000E9F902 /* HearthRateView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1202FB429F1A90300B3603A /* AddExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExerciseView.swift; sourceTree = "<group>"; };
+		E1202FB729F1AAF800B3603A /* ExercisePropertyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisePropertyView.swift; sourceTree = "<group>"; };
+		E155639B29EFF7C700631CD4 /* GymZone Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GymZone Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E155639E29EFF7C700631CD4 /* GymZoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymZoneApp.swift; sourceTree = "<group>"; };
+		E15563A029EFF7C700631CD4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E15563A229EFF7C700631CD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E15563A529EFF7C700631CD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E15930EF29F116A800DDBF62 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		E15930F129F116CD00DDBF62 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		E15930F329F1170900DDBF62 /* WorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsView.swift; sourceTree = "<group>"; };
+		E15930F529F1173C00DDBF62 /* GifView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifView.swift; sourceTree = "<group>"; };
+		E15930F729F1177800DDBF62 /* ExecutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExecutionView.swift; sourceTree = "<group>"; };
+		E15930F929F1179900DDBF62 /* SingleExecutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleExecutionView.swift; sourceTree = "<group>"; };
+		E15930FE29F1187A00DDBF62 /* SingleWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleWorkoutView.swift; sourceTree = "<group>"; };
+		E159310029F11B9700DDBF62 /* AddWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutView.swift; sourceTree = "<group>"; };
+		E164F4CE29F91BFE00028EDD /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		E164F4D129F9222100028EDD /* SingleExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleExerciseView.swift; sourceTree = "<group>"; };
+		E18A09222A053A5F00E25A13 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		E18A09242A053E2600E25A13 /* ChronoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChronoView.swift; sourceTree = "<group>"; };
+		E19F817A2A04D4880067CE0E /* BurnedCaloriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurnedCaloriesView.swift; sourceTree = "<group>"; };
+		E19F817D2A04EAE00067CE0E /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		E1BAC7AB2A03C60F00E9F902 /* GymZone Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "GymZone Watch App.entitlements"; sourceTree = "<group>"; };
+		E1BAC7AD2A03C61F00E9F902 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS9.1.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		E1BAC7AF2A03C6E000E9F902 /* HearthRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthRateView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E155639829EFF7C700631CD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BAC7AE2A03C61F00E9F902 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1202FB629F1AA3300B3603A /* Add Section */ = {
+			isa = PBXGroup;
+			children = (
+				E159310029F11B9700DDBF62 /* AddWorkoutView.swift */,
+				E1202FB429F1A90300B3603A /* AddExerciseView.swift */,
+				E1202FB729F1AAF800B3603A /* ExercisePropertyView.swift */,
+			);
+			path = "Add Section";
+			sourceTree = "<group>";
+		};
+		E155639229EFF7C600631CD4 = {
+			isa = PBXGroup;
+			children = (
+				E155639D29EFF7C700631CD4 /* GymZone Watch App */,
+				E155639C29EFF7C700631CD4 /* Products */,
+				E1BAC7AC2A03C61F00E9F902 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E155639C29EFF7C700631CD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E155639B29EFF7C700631CD4 /* GymZone Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E155639D29EFF7C700631CD4 /* GymZone Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				E1BAC7AB2A03C60F00E9F902 /* GymZone Watch App.entitlements */,
+				E155639E29EFF7C700631CD4 /* GymZoneApp.swift */,
+				E15563A029EFF7C700631CD4 /* ContentView.swift */,
+				E15930FC29F117F500DDBF62 /* Workout Section */,
+				E15930FD29F1180700DDBF62 /* Execution Section */,
+				E15930FB29F117B700DDBF62 /* Data Model */,
+				E15930F529F1173C00DDBF62 /* GifView.swift */,
+				E15563A229EFF7C700631CD4 /* Assets.xcassets */,
+				E15563A429EFF7C700631CD4 /* Preview Content */,
+			);
+			path = "GymZone Watch App";
+			sourceTree = "<group>";
+		};
+		E15563A429EFF7C700631CD4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E15563A529EFF7C700631CD4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E15930FB29F117B700DDBF62 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				E15930EF29F116A800DDBF62 /* DataModel.swift */,
+				E15930F129F116CD00DDBF62 /* DataManager.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		E15930FC29F117F500DDBF62 /* Workout Section */ = {
+			isa = PBXGroup;
+			children = (
+				E164F4D029F91F6600028EDD /* Workout Section */,
+				E1202FB629F1AA3300B3603A /* Add Section */,
+				E15930F329F1170900DDBF62 /* WorkoutsView.swift */,
+			);
+			path = "Workout Section";
+			sourceTree = "<group>";
+		};
+		E15930FD29F1180700DDBF62 /* Execution Section */ = {
+			isa = PBXGroup;
+			children = (
+				E15930F729F1177800DDBF62 /* ExecutionView.swift */,
+				E15930F929F1179900DDBF62 /* SingleExecutionView.swift */,
+			);
+			path = "Execution Section";
+			sourceTree = "<group>";
+		};
+		E164F4D029F91F6600028EDD /* Workout Section */ = {
+			isa = PBXGroup;
+			children = (
+				E15930FE29F1187A00DDBF62 /* SingleWorkoutView.swift */,
+				E164F4D129F9222100028EDD /* SingleExerciseView.swift */,
+				E19F817C2A04DD550067CE0E /* Play Section */,
+			);
+			path = "Workout Section";
+			sourceTree = "<group>";
+		};
+		E19F817C2A04DD550067CE0E /* Play Section */ = {
+			isa = PBXGroup;
+			children = (
+				E164F4CE29F91BFE00028EDD /* PlayView.swift */,
+				E18A09242A053E2600E25A13 /* ChronoView.swift */,
+				E19F817A2A04D4880067CE0E /* BurnedCaloriesView.swift */,
+				E1BAC7AF2A03C6E000E9F902 /* HearthRateView.swift */,
+				E18A09222A053A5F00E25A13 /* TimerView.swift */,
+				E19F817D2A04EAE00067CE0E /* SummaryView.swift */,
+			);
+			path = "Play Section";
+			sourceTree = "<group>";
+		};
+		E1BAC7AC2A03C61F00E9F902 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1BAC7AD2A03C61F00E9F902 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E155639A29EFF7C700631CD4 /* GymZone Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15563A929EFF7C700631CD4 /* Build configuration list for PBXNativeTarget "GymZone Watch App" */;
+			buildPhases = (
+				E155639729EFF7C700631CD4 /* Sources */,
+				E155639829EFF7C700631CD4 /* Frameworks */,
+				E155639929EFF7C700631CD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GymZone Watch App";
+			productName = "GymZone Watch App";
+			productReference = E155639B29EFF7C700631CD4 /* GymZone Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E155639329EFF7C600631CD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E155639A29EFF7C700631CD4 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E155639629EFF7C600631CD4 /* Build configuration list for PBXProject "GymZone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E155639229EFF7C600631CD4;
+			productRefGroup = E155639C29EFF7C700631CD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E155639A29EFF7C700631CD4 /* GymZone Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E155639929EFF7C700631CD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15563A629EFF7C700631CD4 /* Preview Assets.xcassets in Resources */,
+				E15563A329EFF7C700631CD4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E155639729EFF7C700631CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E164F4CF29F91BFE00028EDD /* PlayView.swift in Sources */,
+				E15563A129EFF7C700631CD4 /* ContentView.swift in Sources */,
+				E19F817B2A04D4880067CE0E /* BurnedCaloriesView.swift in Sources */,
+				E18A09252A053E2600E25A13 /* ChronoView.swift in Sources */,
+				E1BAC7B02A03C6E000E9F902 /* HearthRateView.swift in Sources */,
+				E15930F629F1173C00DDBF62 /* GifView.swift in Sources */,
+				E15930F229F116CE00DDBF62 /* DataManager.swift in Sources */,
+				E15930F429F1170900DDBF62 /* WorkoutsView.swift in Sources */,
+				E159310129F11B9700DDBF62 /* AddWorkoutView.swift in Sources */,
+				E1202FB529F1A90300B3603A /* AddExerciseView.swift in Sources */,
+				E155639F29EFF7C700631CD4 /* GymZoneApp.swift in Sources */,
+				E18A09232A053A5F00E25A13 /* TimerView.swift in Sources */,
+				E15930FA29F1179900DDBF62 /* SingleExecutionView.swift in Sources */,
+				E19F817E2A04EAE00067CE0E /* SummaryView.swift in Sources */,
+				E15930F829F1177800DDBF62 /* ExecutionView.swift in Sources */,
+				E1202FB829F1AAF800B3603A /* ExercisePropertyView.swift in Sources */,
+				E15930FF29F1187A00DDBF62 /* SingleWorkoutView.swift in Sources */,
+				E15930F029F116A800DDBF62 /* DataModel.swift in Sources */,
+				E164F4D229F9222100028EDD /* SingleExerciseView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E15563A729EFF7C700631CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Debug;
+		};
+		E15563A829EFF7C700631CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Release;
+		};
+		E15563AA29EFF7C700631CD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "GymZone Watch App/GymZone Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GymZone Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = M3RZZXG22B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GymZone;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "We need autorization for HearthRate and BunerdCalories";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need autorization for HearthRate and BunerdCalories";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need autorization for HearthRate and BunerdCalories";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .it.unisa.applefoundationprogram.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Debug;
+		};
+		E15563AB29EFF7C700631CD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "GymZone Watch App/GymZone Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GymZone Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = M3RZZXG22B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GymZone;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "We need autorization for HearthRate and BunerdCalories";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We need autorization for HearthRate and BunerdCalories";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need autorization for HearthRate and BunerdCalories";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = .it.unisa.applefoundationprogram.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E155639629EFF7C600631CD4 /* Build configuration list for PBXProject "GymZone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15563A729EFF7C700631CD4 /* Debug */,
+				E15563A829EFF7C700631CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E15563A929EFF7C700631CD4 /* Build configuration list for PBXNativeTarget "GymZone Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15563AA29EFF7C700631CD4 /* Debug */,
+				E15563AB29EFF7C700631CD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E155639329EFF7C600631CD4 /* Project object */;
+}
